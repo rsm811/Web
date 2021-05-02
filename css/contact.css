@@ -1,0 +1,57 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family:Lucida Handwriting ;
+ background-color: #fdb26c;
+ 
+}
+
+p.a{
+    text-align: center;
+    margin-top: 30px;
+}
+p.b{
+    font-family: Bradley Hand ITC;
+    font-weight: bolder;
+    text-align: center;
+    font-size: large;
+}
+.train {
+    position: relative;
+    cursor: pointer;
+    width: 177px;
+    height: 160px;
+    left: 0px;
+    transition: left 5s cubic-bezier(0.0, 0.5, 0.5, 1.0);
+}
+
+.btn{
+    margin:1px auto 0; text-align: center;
+}
+.btn a{
+    width: 120px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 2px;
+    padding: 3px 0;
+    color: #FCDFFF;
+    border: .10px solid #000000;
+    position: relative;
+    z-index: 1;
+    transition: color .5s ;
+}
+.btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    background: #FCDFFF;
+    z-index: -1;
+    transition: .5s;
+}
+
+.btn a:hover span{
+    width: 100%;
+}
+.btn a:hover{
+    color: #F52887;
+}

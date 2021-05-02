@@ -1,0 +1,51 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family:Lucida Handwriting ;
+ background-color: #acc0c0;
+}
+#services{
+    width: 100; 
+    padding: 1px 0;
+}
+
+.service-box{
+    width:80% ; display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.single-service{
+    flex-basis: 33.33%; text-align: center; border-radius: 7px;
+    margin-bottom: 2px; color: white; position: relative;
+}
+.single-service img{
+    width: 100%;
+    height: 40vh;
+    border-radius: 7px;
+}
+p{
+    text-align: left;
+    font-weight: bolder;
+}
+h2{
+    text-align: center;
+    font-family: Algerian;
+}
+h4{
+    font-weight: lighter;
+    font-style: italic;
+    margin: 20px;
+}
+footer{
+    text-align: center;
+}
+h3{
+font-family: Lucida Handwriting;
+}
+p.r{
+    font-family: Comic Sans MS;
+}
+body.a{
+    font-family: algerian; text-align: center;
+}
